@@ -1,0 +1,10 @@
+var n1 = prompt('Enter your number')
+
+var n2 =  prompt('Enter your number')
+
+function mulFunction(num1, num2){
+  return Number(num1) * Number(num2)
+}
+
+var result = mulFunction(n1,n2)
+console.log(result)
